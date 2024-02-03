@@ -41,11 +41,10 @@ pipeline {
 
     post {
         always {
-            // Cleanup, if needed
+          
             script {
                 docker.image(env.DOCKER_IMAGE).remove()
             }
         }
     }
 }
-
