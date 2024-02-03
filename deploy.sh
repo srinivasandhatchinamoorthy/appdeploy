@@ -2,9 +2,11 @@
 
 # Set your Docker Hub username
 DOCKER_USERNAME="srinivasandhatchinamoorthy"
+DOCKER_PASSWORD="dckr_pat_CGOUa0xUFj8iTMJNN0a5PYV8lr0"
+
 
 # Set the image name
-IMAGE_NAME="dev"
+IMAGE_NAME="prod"
 
 # Build the Docker image
 docker build -t $DOCKER_USERNAME/$IMAGE_NAME .
